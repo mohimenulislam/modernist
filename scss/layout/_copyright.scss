@@ -1,0 +1,19 @@
+.copy_right {
+    padding: 20px 0;
+    background-color: #2b2b2b;
+    .inner_copy_right {
+        display: flex;
+        justify-content: space-between;
+        p {
+            margin-bottom: 0;
+            color: #979797;
+        }
+        .cpr_left {
+            width: 50%;
+        }
+        .cpr_right {
+            width: 50%;
+            text-align: end;
+        }
+    }
+}
