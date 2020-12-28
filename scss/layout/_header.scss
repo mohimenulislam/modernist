@@ -1,7 +1,10 @@
+.background_img {
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+}
 .header_area {
-    background-color: #290000;
-    // background-image: url(../img/header_photo.jpg);
-    // background-repeat: no-repeat;
+    background-color: #4C4C4C;
+    opacity: 0.6;
     overflow: hidden;
     padding-bottom: 50px;
 }
@@ -42,11 +45,11 @@
 
     .bottom_left {
         width: 50%;
-        margin-top: 90px;
         .inner_bottom_left {
             max-width: 325px;
             height: auto;
             margin-left: 65px;
+            margin-top: 30px;
             h2 {
                 color: #ffffff;
                 font-size: 46px;
@@ -67,6 +70,8 @@
     .bottom_right {
         width: 50%;
         img {
+            width: 380px;
+            height: 380px;
             border: 25px solid #6b6b6b;
             border-radius: 50%;
         }
