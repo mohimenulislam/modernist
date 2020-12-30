@@ -10,10 +10,16 @@
         }
         .cpr_left {
             width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
         }
         .cpr_right {
             width: 50%;
             text-align: end;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
         }
     }
 }
